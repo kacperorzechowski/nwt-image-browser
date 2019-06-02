@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700");
+@import 'colors';
+
+* {
+  /*
+    Padding and margin values are set to 0 to avoid issues.
+   */
+  padding: 0;
+  margin: 0;
+
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
 body {
-  background: lightgray;
+  color: black;
+  background: white;
 }
