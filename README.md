@@ -10,6 +10,6 @@ During development I have encountered many struggles. Those articles helped me a
 * https://medium.com/js-dojo/how-to-configure-webpack-4-with-vuejs-a-complete-guide-209e943c4772
 
 I have also checked some git repositories with example projects to make sure my ideas are correct.
-
+* https://github.com/samteb/vue-2-webpack-4-boilerplate
 
 I also read docs from libs I used in project

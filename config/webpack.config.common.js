@@ -11,7 +11,7 @@ module.exports = {
   },
   entry: {
     polyfill: '@babel/polyfill',
-    main: path.join(__dirname, '../src/main.js'),
+    main: path.join(__dirname, '../src/main.js')
   },
   module: {
     rules: [
@@ -46,6 +46,12 @@ module.exports = {
           {
             loader: 'sass-loader',
             options: { sourceMap: true }
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              data: `@import "@/assets/scss/styles.scss";`
+            }
           }
         ]
       },
