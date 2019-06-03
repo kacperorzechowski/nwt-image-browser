@@ -17,7 +17,7 @@ export default {
   },
   /**
    * Searches images with given phrase in Data Provider Service
-   * @param phrase
+   * @param phrase {String}
    * @returns {Promise<AxiosResponse<T>>}
    */
   search (phrase) {
